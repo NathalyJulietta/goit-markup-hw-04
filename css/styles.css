@@ -1,5 +1,7 @@
-*{
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 :root{
     --brand-color:#2196F3;
@@ -22,9 +24,7 @@ body {
 header{
     border-bottom: 1px solid var(--line-color);
 }
-img{
-    margin-bottom: 30px;
-}
+
 nav {
     font-size: 14px;
     font-weight: 500;
@@ -49,7 +49,7 @@ ul {
     height: 600px;
 }
 .buttons {
-    cursor: pointer;
+   cursor: pointer;
 }
 .buttons:hover{
     color: var(--second-color);
@@ -101,13 +101,14 @@ ul {
 .foot-bg {
     background-color: var(--bg-color);
     padding-top: 60px;
+    padding-bottom: 60px;
  }
 .foot-info{
     margin-bottom: 2px;  
 }
 .head{
     margin-right: 93px;
-    margin-left: 0;
+    margin-left: 215px;
     margin-top: 24px;
     margin-bottom: 25px;
 }
@@ -148,10 +149,6 @@ ul {
 .l2{
     margin-left: 50px;
 }
-.l3{
-    
-    margin-left: 50px;
-}
 .links {
     color: var(--text-color);
     margin-top: 32px;
@@ -169,7 +166,6 @@ ul {
 }
 .location:hover{
     color: var(--brand-color);
-    margin-bottom: 27px;
 }
 .logo {
     color: var(--brand-color);
@@ -178,10 +174,6 @@ ul {
     font-weight: 700;
     line-height: 31px;
     letter-spacing: 0.03em;
-}
-.mail{
-    margin-top: 32px;
-    margin-bottom: 32px;
 }
 .menu{
     display: flex;
@@ -220,7 +212,6 @@ ul {
 }
 .tel{
     margin-left: 50px;
-    margin-right: 219px;
 }
 .tittle-2 {
     color: var(--text-color);
