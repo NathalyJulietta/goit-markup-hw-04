@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --brand-color:#2196F3;
+    --text-color: #212121;
+    --second-color: #ffffff;
+    --third-color: #757575; 
+    --bg-color: #2F303A;
+    --color-team:  #F5F4FA;
+    --line-color: #ECECEC;
+    --cards-color: #EEEEEE; 
+}
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--text-color);
+}
+header{
+    border-bottom: 1px solid var(--line-color);
+}
+img{
+    margin-bottom: 30px;
+}
+nav {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    vertical-align: top;
+    letter-spacing: 0.02em;
+}
+p {
+    color: var(--third-color);
+    font-size: 14px;
+    line-height: 24px;
+    vertical-align: top;
+    letter-spacing: 0.03em;
+    margin-top: 10px;
+} 
+ul {
+    list-style: none;
+    padding: 0;
+}
+.bg{
+    background-color: var(--bg-color);
+    height: 600px;
+}
+.buttons {
+    cursor: pointer;
+}
+.buttons:hover{
+    color: var(--second-color);
+    background-color: var(--brand-color);
+}
+.button-principal{
+    color: var(--second-color);
+    background-color: var(--brand-color);
+    width: 261px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+.button-folio {
+    align-items: center;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.button-folio:first-child{
+    margin-left: 0;
+}
+.button-folio:last-child{
+    margin-right: 0;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.cards-items{
+    flex-basis: calc((100% - 60px) / 3);
+    align-content: center;
+    border-bottom: 1px solid  var(--cards-color); ;
+}
+.container{
+   width: 1200px;
+   margin: 0 auto;
+}
+.foot{
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 9px;
+}
+.foot-bg {
+    background-color: var(--bg-color);
+    padding-top: 60px;
+ }
+.foot-info{
+    margin-bottom: 2px;  
+}
+.head{
+    margin-right: 93px;
+    margin-left: 0;
+    margin-top: 24px;
+    margin-bottom: 25px;
+}
+.img-1{
+    margin-top: 55px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 94px;
+}
+.img-1:first-child{
+    margin-left: 0;
+}
+.img-1:last-child{
+    margin-right: 0;
+}
+.img-2{
+    margin-top: 50px;
+    margin-left: 37px;
+}
+.img-2:first-child{
+    margin-left: 0;
+}
+.img-2:last-child{
+    margin-right: 0;
+}
+.info {
+    color: var(--third-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.info:hover {
+    color: var(--brand-color)
+}
+.l2{
+    margin-left: 50px;
+}
+.l3{
+    
+    margin-left: 50px;
+}
+.links {
+    color: var(--text-color);
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.links:hover {
+    color: var(--brand-color);
+}
+.location {
+    color: var(--second-color);
+    font-size: 14px;
+    line-height: 24px;
+    vertical-align: top;
+    letter-spacing: 0.03em;
+}
+.location:hover{
+    color: var(--brand-color);
+    margin-bottom: 27px;
+}
+.logo {
+    color: var(--brand-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+.mail{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.name {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: 0.03em;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.subtittle-text {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    vertical-align: top;
+    letter-spacing: 0.03em;
+}
+.text{
+    margin-right: 30px;
+}
+.text:first-child{
+    margin-left: 0;
+}
+.text:last-child{
+    margin-right: 0;
+}
+.tel{
+    margin-left: 50px;
+    margin-right: 219px;
+}
+.tittle-2 {
+    color: var(--text-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: 0.03em;
+}
+.topic {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: 0.03em;
+}
+#tittle {
+    color: var(--second-color);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+#team-color {
+    background-color: var(--color-team);
+}
