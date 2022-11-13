@@ -51,7 +51,7 @@ ul {
 }
 .bg{
     height: 600px;
-    background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/Imagenbackground.jpg");
+    background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Imagenbackground.jpg");
     background-size: cover;
 }
 .box-1, 
@@ -64,15 +64,15 @@ ul {
     margin-right: 30px;
 }
 .box-1{
-    background-image: url("/images/imagencaja1.jpg");
+    background-image: url("../images/imagencaja1.jpg");
     margin-left: 0;
     
 }
 .box-2{
-    background-image: url("/images/imagencaja2.jpg");
+    background-image: url("../images/imagencaja2.jpg");
 }
 .box-3{
-    background-image: url("/images/imagencaja3.jpg");
+    background-image: url("../images/imagencaja3.jpg");
     margin-left: 0;
     margin-right: 0;
 }
@@ -145,8 +145,8 @@ ul {
     height: 36px;
 }
 .cards-items:hover{
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    background: var(--second-color);
+    border: 1px solid var(--cards-color);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .cards-items{
