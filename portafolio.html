@@ -20,10 +20,12 @@
     <header class="menu">
       <div class="container">
         <nav>
-          <ul class="menu">
+          <ul class="menu links-head">
             <li><a class="logo head">WebStudio</a></li>
             <li><a class="links" href="index.html">Estudio</a></li>
-            <li class="l2"><a class="links" href="#">Portafolio</a></li>
+            <li class="l2">
+              <a class="links" href="#">Portafolio</a>
+            </li>
             <li class="l2">
               <a class="links" href="contactos.html">Contactos</a>
             </li>
@@ -32,13 +34,20 @@
       </div>
       <div class="container">
         <ul class="menu">
-          <li>
-            <a class="info" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+          <li class="links-head">
+            <svg class="icon icon-info" width="16" height="12">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>
+            <a class="info" href="mailto:info@devstudio.com">
+              info@devstudio.com
+            </a>
           </li>
-          <li>
-            <a class="info tel" href="tel:+525555296000">+52 55 5529 6000</a>
+
+          <li class="links-head">
+            <svg class="icon icon-info tel" width="10" height="16">
+              <use href="./images/icons.svg#icon-celphone"></use>
+            </svg>
+            <a class="info" href="tel:+525555296000">+52 55 5529 6000</a>
           </li>
         </ul>
       </div>
@@ -46,29 +55,29 @@
     <main>
       <section class="section">
         <div class="container">
-          <ul class="menu">
+          <ul class="menu buttons">
             <li class="button-folio">
-              <button type="button" class="buttons">
+              <button type="button" class="button-folio buttons">
                 <span class="button__label">Todo</span>
               </button>
             </li>
             <li class="button-folio">
-              <button type="button" class="buttons">
+              <button type="button" class="button-folio buttons">
                 <span class="button__label">Sitios-web</span>
               </button>
             </li>
             <li class="button-folio">
-              <button type="button" class="buttons">
+              <button type="button" class="button-folio buttons">
                 <span class="button__label">Aplicaciones</span>
               </button>
             </li>
             <li class="button-folio">
-              <button type="button" class="buttons">
+              <button type="button" class="buttons button-folio">
                 <span class="button__label">Diseño</span>
               </button>
             </li>
             <li class="button-folio">
-              <button type="button" class="buttons">
+              <button type="button" class="button-folio buttons">
                 <span class="button__label">Marketing</span>
               </button>
             </li>
@@ -83,8 +92,9 @@
                 src="images/tecnoduck.jpg"
                 alt="Sitio-web de Tecnoduck"
                 width="370"
+                height="294"
               />
-              <h3 class="name">Tecnoduck</h3>
+              <h3 class="card-name">Tecnoduck</h3>
               <p class="topic">Sitio-web</p>
             </li>
             <li class="cards-items">
@@ -92,16 +102,21 @@
                 src="images/imageposternoed.jpg"
                 alt="Póster de Nueva Orleans vs Estrella Dorada"
                 width="370"
+                height="294"
               />
-              <h3 class="name">Póster de Nueva Orleans vs Estrella Dorada</h3>
+              <h3 class="card-name">
+                Póster de Nueva Orleans vs Estrella Dorada
+              </h3>
+              <p class="topic">Diseño</p>
             </li>
             <li class="cards-items">
               <img
                 src="images/imageseafood.jpg"
                 alt="logo del Restaurante Seafood"
                 width="370"
+                height="294"
               />
-              <h3 class="name">Restaurante Seafood</h3>
+              <h3 class="card-name">Restaurante Seafood</h3>
               <p class="topic">Aplicaciones</p>
             </li>
             <li class="cards-items">
@@ -109,8 +124,9 @@
                 src="images/imageproyectprime.jpg"
                 alt="Auriculares negros"
                 width="370"
+                height="294"
               />
-              <h3 class="name">Proyecto Prime</h3>
+              <h3 class="card-name">Proyecto Prime</h3>
               <p class="topic">Marketing</p>
             </li>
             <li class="cards-items">
@@ -118,8 +134,9 @@
                 src="images/imagepboxes.jpg"
                 alt="dos cajjas, izquierda de color blanco y derecha de color café"
                 width="370"
+                height="294"
               />
-              <h3 class="name">Proyecto Cajas</h3>
+              <h3 class="card-name">Proyecto Cajas</h3>
               <p class="topic">Aplicaciones</p>
             </li>
             <li class="cards-items">
@@ -127,8 +144,9 @@
                 src="images/imageinspiration.jpg"
                 alt="monitor de computadora"
                 width="370"
+                height="294"
               />
-              <h3 class="name">La inspiración no tiene límites</h3>
+              <h3 class="card-name">La inspiración no tiene límites</h3>
               <p class="topic">Sitio-web</p>
             </li>
             <li class="cards-items">
@@ -136,8 +154,9 @@
                 src="images/imagelimitedition.jpg"
                 alt="revista con imagenes de chica usando secadora, chica entada en cunclillas con bolso blanco en la mano, dos amigas de espaldas, observando el piente de new york"
                 width="370"
+                height="294"
               />
-              <h3 class="name">Edición Limitada</h3>
+              <h3 class="card-name">Edición Limitada</h3>
               <p class="topic">Diseño</p>
             </li>
             <li class="cards-items">
@@ -145,8 +164,9 @@
                 src="images/imageplab.jpg"
                 alt="logo de tab el lag"
                 width="370"
+                height="294"
               />
-              <h3 class="name">Proyecto LAB</h3>
+              <h3 class="card-name">Proyecto LAB</h3>
               <p class="topic">Marketing</p>
             </li>
             <li class="cards-items">
@@ -154,36 +174,69 @@
                 src="images/imagegrowingbusiness.jpg"
                 alt="manos escribiendo en laptop"
                 width="370"
+                height="294"
               />
-              <h3 class="name">Negocio en Crecimiento</h3>
+              <h3 class="card-name">Negocio en Crecimiento</h3>
               <p class="topic">Aplicaciones</p>
             </li>
           </ul>
         </div>
       </section>
     </main>
+
     <footer class="foot-bg">
-      <div class="container">
-        <ul>
-          <li><h2 class="logo foot">WebStudio</h2></li>
-          <li class="location">
-            Calz. Ticomán 500, Ciudad de México, CDMX, México
-          </li>
-        </ul>
-        <address>
+      <div class="container foot-1">
+        <div class="foot-1">
           <ul>
             <li>
-              <a class="location foot-info" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+              <h2 class="logo foot">WebStudio</h2>
+            </li>
+            <li class="location">
+              Calz. Ticomán 500, Ciudad de México, CDMX, México
             </li>
             <li>
-              <a class="location foot-info" href="tel:+525555296000"
-                >+52 55 5529 6000</a
-              >
+              <address class="location">
+                <a class="foot-info" href="mailto:info@devstudio.com">
+                  info@devstudio.com
+                </a>
+              </address>
+            </li>
+            <li class="location">
+              <address>
+                <a class="foot-info" href="tel:+525555296000"
+                  >+52 55 5529 6000</a
+                >
+              </address>
             </li>
           </ul>
-        </address>
+        </div>
+        <ul>
+          <li>
+            <p class="social-media">ENCUENTRENOS EN</p>
+          </li>
+          <li class="social-media">
+            <div class="container icon icon-foot">
+              <svg Width="20px" Height=" 20px">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </div>
+            <div class="container icon icon-foot">
+              <svg Width="20px" Height=" 20px">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </div>
+            <div class="container icon icon-foot">
+              <svg Width="20px" Height=" 20px">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </div>
+            <div class="container icon icon-foot cardsfoot-items">
+              <svg Width="20px" Height=" 20px">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </div>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>

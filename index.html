@@ -19,7 +19,7 @@
     <header class="menu">
       <div class="container">
         <nav>
-          <ul class="menu">
+          <ul class="menu links-head">
             <li><a class="logo head">WebStudio</a></li>
             <li><a class="links" href="#">Estudio</a></li>
             <li class="l2">
@@ -33,13 +33,20 @@
       </div>
       <div class="container">
         <ul class="menu">
-          <li>
-            <a class="info" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+          <li class="links-head">
+            <svg class="icon icon-info" width="16" height="12">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>
+            <a class="info" href="mailto:info@devstudio.com">
+              info@devstudio.com
+            </a>
           </li>
-          <li>
-            <a class="info tel" href="tel:+525555296000">+52 55 5529 6000</a>
+
+          <li class="links-head">
+            <svg class="icon icon-info tel" width="10" height="16">
+              <use href="./images/icons.svg#icon-celphone"></use>
+            </svg>
+            <a class="info" href="tel:+525555296000"> +52 55 5529 6000 </a>
           </li>
         </ul>
       </div>
@@ -60,36 +67,64 @@
       <section class="section">
         <div class="container menu">
           <article class="text">
-            <h3 class="subtittle-text">ATENCIÓN A LOS DETALLES</h3>
-            <p>
-              Nos adentramos en todos los detalles y procesos de su negocio,
-              para así desarrollar una solución a su medida.
-            </p>
+            <div class="icon icon-features">
+              <svg height="70px" width="70px">
+                <use href="./images/icons.svg#icon-benefits-1"></use>
+              </svg>
+            </div>
+            <div class="text-2">
+              <h3 class="subtittle-text">ATENCIÓN A LOS DETALLES</h3>
+              <p>
+                Nos adentramos en todos los detalles y procesos de su negocio,
+                para así desarrollar una solución a su medida.
+              </p>
+            </div>
           </article>
 
           <article class="text">
-            <h3 class="subtittle-text">PUNTUALIDAD</h3>
-            <p>
-              Con nosotros, usted puede sentirse seguro y protegido. Un
-              principio importante de la empresa: respetar su tiempo y respetar
-              los plazos acordados.
-            </p>
+            <div class="icon icon-features">
+              <svg height="70px" width="70px">
+                <use href="./images/icons.svg#icon-benefits-2"></use>
+              </svg>
+            </div>
+            <div class="text-2">
+              <h3 class="subtittle-text">PUNTUALIDAD</h3>
+              <p>
+                Con nosotros, usted puede sentirse seguro y protegido. Un
+                principio importante de la empresa: respetar su tiempo y
+                respetar los plazos acordados.
+              </p>
+            </div>
           </article>
 
           <article class="text">
-            <h3 class="subtittle-text">PLANIFICACIÓN</h3>
-            <p>
-              Usted podrá observar y participar en cada fase del desarrollo y
-              aplicación de soluciones.
-            </p>
+            <div class="icon icon-features">
+              <svg width="70px" height="70px">
+                <use href="./images/icons.svg#icon-benefits-3"></use>
+              </svg>
+            </div>
+            <div class="text-2">
+              <h3 class="subtittle-text">PLANIFICACIÓN</h3>
+              <p>
+                Usted podrá observar y participar en cada fase del desarrollo y
+                aplicación de soluciones.
+              </p>
+            </div>
           </article>
 
           <article class="text">
-            <h3 class="subtittle-text">TECNOLOGÍA MODERNA</h3>
-            <p>
-              Usamos herramientas innovadoras para resolver las tareas
-              asignadas. Es hora de simplificar los procesos laborales.
-            </p>
+            <div class="icon icon-features">
+              <svg width="70px" height="70px">
+                <use href="./images/icons.svg#icon-benefits-4"></use>
+              </svg>
+            </div>
+            <div class="text-2">
+              <h3 class="subtittle-text">TECNOLOGÍA MODERNA</h3>
+              <p>
+                Usamos herramientas innovadoras para resolver las tareas
+                asignadas. Es hora de simplificar los procesos laborales.
+              </p>
+            </div>
           </article>
         </div>
       </section>
@@ -98,107 +133,249 @@
         <div class="tittle-2 container">
           <h2>A qué nos dedicamos</h2>
         </div>
-        <div class="container">
+        <div class="container box-1">
           <ul class="menu">
-            <li class="img-1">
-              <img
-                src="images/imagencaja1.jpg"
-                alt="manos escribiendo en teclado, la pantalla muestra código de programación"
-                height="323"
-                width="373"
-              />
+            <li class="box-1">
+              <div class="img-box">
+                <p class="img-1-text">APLICACIONES DE ESCRITORIO</p>
+              </div>
             </li>
-            <li class="img-1">
-              <img
-                src="images/imagencaja2.jpg"
-                alt="persona usando celular y computadora"
-                height="323"
-                width="373"
-              />
+            <li class="box-2">
+              <div class="img-box">
+                <p class="img-1-text">APLICACIONES MOVILES</p>
+              </div>
             </li>
-            <li class="img-1">
-              <img
-                src="images/imagencaja3.jpg"
-                alt="manos sosteniendo un ipad, la pantalla del ipad muestra gama de colores"
-                height="323"
-                width="373"
-              />
+            <li class="box-3">
+              <div class="img-box">
+                <p class="img-1-text">SOLUCIONES DE DISEÑO</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
+
       <section id="team-color" class="section">
         <div class="tittle-2 container">
           <h2>Nuestro Equipo</h2>
         </div>
         <div class="container">
           <ul class="menu">
-            <li class="img-2">
+            <li class="cards-team img-2">
               <img
                 src="images/imagentarjeta1.jpg"
                 alt="Hombre castaño, usa lentes redondos y camisa café debotones blancos, está sonriendo"
-                height="270"
-                width="260"
+                height="260"
+                width="270"
               />
               <h3 class="name">Andrés Cubo</h3>
               <p class="topic">Diseñador de Productos</p>
+              <div class="container icon icon-socialmedia instagram">
+                <svg Width="20px" Height=" 20px">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </div>
+              <div class="container icon icon-socialmedia">
+                <svg Width="20px" Height=" 20px">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </div>
+              <div class="container icon icon-socialmedia">
+                <svg Width="20px" Height=" 20px">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </div>
+              <div class="container icon icon-socialmedia linkedin">
+                <svg Width="20px" Height=" 20px">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </div>
             </li>
-            <li class="img-2">
+            <li class="cards-team img-2">
               <img
                 src="images/imagentarjeta2.jpg"
                 alt="Mujer sonriente, rubia de cabello peinado de lado, usa lentes cuadrados, chaqueta negra y blusa blanca"
-                height="270"
-                width="260"
+                height="260"
+                width="270"
               />
               <h3 class="name">Carla Palacios</h3>
               <p class="topic">Desarrolladora Frontend</p>
+              <div class="container icon icon-socialmedia instagram">
+                <svg Width="20px" Height=" 20px">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </div>
+              <div class="container icon icon-socialmedia">
+                <svg Width="20px" Height=" 20px">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </div>
+              <div class="container icon icon-socialmedia">
+                <svg Width="20px" Height=" 20px">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </div>
+              <div class="container icon icon-socialmedia linkedin">
+                <svg Width="20px" Height=" 20px">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </div>
             </li>
-            <li class="img-2">
+            <li class="cards-team img-2">
               <img
                 src="images/imagentarjeta3.jpg"
                 alt="Hombre sonriendo, rubio, de barba corta, usa camisa celeste"
-                height="270"
-                width="260"
+                height="260"
+                width="270"
               />
               <h3 class="name">Mario Dorado</h3>
               <p class="topic">Marketing</p>
+              <div class="container icon icon-socialmedia instagram">
+                <svg Width="20px" Height=" 20px">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </div>
+              <div class="container icon icon-socialmedia">
+                <svg Width="20px" Height=" 20px">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </div>
+              <div class="container icon icon-socialmedia">
+                <svg Width="20px" Height=" 20px">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </div>
+              <div class="container icon icon-socialmedia linkedin">
+                <svg Width="20px" Height=" 20px">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </div>
             </li>
-            <li class="img-2">
+            <li class="cards-team img-2">
               <img
                 src="images/imagentarjeta4.jpg"
                 alt="Hombre sonriendo, de cabello negro, usa gafas de marco negro y camiseta negra"
-                height="270"
-                width="260"
+                height="260"
+                width="270"
               />
               <h3 class="name">Pablo Mijangos</h3>
               <p class="topic">Diseñador IU</p>
+              <div class="icon icon-socialmedia instagram">
+                <svg Width="20px" Height=" 20px">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </div>
+              <div class="container icon icon-socialmedia">
+                <svg Width="20px" Height=" 20px">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </div>
+              <div class="container icon icon-socialmedia">
+                <svg Width="20px" Height=" 20px">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </div>
+              <div class="container icon icon-socialmedia linkedin">
+                <svg Width="20px" Height=" 20px">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </div>
             </li>
           </ul>
         </div>
       </section>
+
+      <section class="section">
+        <div class="container tittle-2">
+          <h2>Clientes Regulares</h2>
+        </div>
+        <div class="container menu">
+          <article class="icon icon-client">
+            <svg Width="106px" Height="53px">
+              <use href="./images/icons.svg#icon-client-1"></use>
+            </svg>
+          </article>
+          <article class="icon icon-client">
+            <svg Width="106px" Height="53px">
+              <use href="./images/icons.svg#icon-client-2"></use>
+            </svg>
+          </article>
+          <article class="icon icon-client">
+            <svg Width="106px" Height="53px">
+              <use href="./images/icons.svg#icon-client-3"></use>
+            </svg>
+          </article>
+          <article class="icon icon-client">
+            <svg Width="106px" Height="53px">
+              <use href="./images/icons.svg#icon-client-4"></use>
+            </svg>
+          </article>
+          <article class="icon icon-client">
+            <svg Width="106px" Height="53px">
+              <use href="./images/icons.svg#icon-client-5"></use>
+            </svg>
+          </article>
+          <article class="icon icon-client">
+            <svg Width="106px" Height="53px">
+              <use href="./images/icons.svg#icon-client-6"></use>
+            </svg>
+          </article>
+        </div>
+      </section>
     </main>
+
     <footer class="foot-bg">
-      <div class="container">
-        <ul>
-          <li><h2 class="logo foot">WebStudio</h2></li>
-          <li class="location">
-            Calz. Ticomán 500, Ciudad de México, CDMX, México
-          </li>
-        </ul>
-        <address>
+      <div class="container foot-1">
+        <div class="foot-1">
           <ul>
             <li>
-              <a class="location foot-info" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+              <h2 class="logo foot">WebStudio</h2>
+            </li>
+            <li class="location">
+              Calz. Ticomán 500, Ciudad de México, CDMX, México
             </li>
             <li>
-              <a class="location foot-info" href="tel:+525555296000"
-                >+52 55 5529 6000</a
-              >
+              <address class="location">
+                <a class="foot-info" href="mailto:info@devstudio.com">
+                  info@devstudio.com
+                </a>
+              </address>
+            </li>
+            <li class="location">
+              <address>
+                <a class="foot-info" href="tel:+525555296000"
+                  >+52 55 5529 6000</a
+                >
+              </address>
             </li>
           </ul>
-        </address>
+        </div>
+        <ul>
+          <li>
+            <p class="social-media">ENCUENTRENOS EN</p>
+          </li>
+          <li class="social-media">
+            <div class="container icon icon-foot">
+              <svg Width="20px" Height=" 20px">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </div>
+            <div class="container icon icon-foot">
+              <svg Width="20px" Height=" 20px">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </div>
+            <div class="container icon icon-foot">
+              <svg Width="20px" Height=" 20px">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </div>
+            <div class="container icon icon-foot cardsfoot-items">
+              <svg Width="20px" Height=" 20px">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </div>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
